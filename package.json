@@ -1,6 +1,6 @@
 {
   "name": "phenomic",
-  "version": "0.21.1",
+  "version": "0.21.2-0",
   "description": "Modern website generator based on the React and Webpack ecosystem.",
   "keywords": [
     "webpack",
@@ -81,6 +81,7 @@
     "sitemap": "^1.8.2",
     "source-map-support": "^0.4.0",
     "strip-markdown": "^0.3.1",
+    "styled-components": "^2.1.0",
     "url-join": "^1.1.0",
     "valid-url": "^1.0.9",
     "webpack-dev-middleware": "^1.10.1",
@@ -144,7 +145,6 @@
     "webpack": "^2.3.0"
   },
   "scripts": {
-    "postinstall": "node npm/postinstall.js",
     "transpile": "babel --ignore __tests__ --copy-files src --out-dir lib",
     "prepublish": "rimraf lib && npm run transpile",
     "#lint:js:eslint": "https://github.com/eslint/eslint/issues/5679",

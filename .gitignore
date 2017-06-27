@@ -8,9 +8,6 @@ npm-debug.log
 # code coverage
 coverage
 
-# build
-lib
-
 # tests results
 **/__tests__/_output*
 
